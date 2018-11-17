@@ -11,8 +11,5 @@
   "license": "ISC",
   "dependencies": {
     "chart.js": "^2.7.3"
-  },
-  "devDependencies": {
-    "electron": "^3.0.9"
   }
 }

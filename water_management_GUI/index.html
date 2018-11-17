@@ -2,54 +2,18 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Water Management</title>
-<style>
-body {
-    margin: 0;
-		background-color: #FFF;
-}
-
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: #4c759a;
-    position: fixed;
-    height: 100%;
-    overflow: auto;
-}
-
-li a {
-    display: block;
-    color: #000;
-    padding: 8px 16px;
-    text-decoration: none;
-
-}
-
-li a.active {
-    background-color: #004989;
-    color: white;
-}
-
-li a:hover:not(.active) {
-    background-color: #99ccff;
-    color: black;
-}
-</style>
-
+<title>Canvas Tutorial</title>
 </head>
 <body>
-	<ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li><a href="#news">News</a></li>
-  <li><a href="#contact">Contact</a></li>
-  <li><a href="#about">About</a></li>
-</ul>
-<div id="canvasParent" style="margin-left:25%;padding:1px 16px;height:99vh;width:70%;background-color: #FFF;">
-			<canvas id="myCanvas"></canvas>
-</div>
+	<table style="width:100%">
+	  <tr>
+			<canvas id="myCanvas" width="500" height="200"></canvas>
+	  </tr>
+	  <tr>
+			<canvas id="myCanvas1" width="500" height="200"></canvas>
+	  </tr>
+	</table>
+
 <script src="./helpers/utils.js"></script>
 
 </body>
